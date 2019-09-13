@@ -5,18 +5,3 @@
 body {
   margin: 0;
 }
-
-.video-container {
-  height:100vh;
-  width: 100vw;
-  position: relative;
-}
-video {
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-}
