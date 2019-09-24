@@ -5,3 +5,26 @@
 body {
   margin: 0;
 }
+
+.homecontainer {
+  background-color: blue;
+  width:100%;
+  min-height: 100vh;
+}
+.aboutcontainer {
+  background-color: red;
+  width:100%;
+  min-height: 100vh;
+}
+
+.projectcontainer {
+  background-color: yellow;
+  width:100%;
+  min-height: 100vh;
+}
+
+.contactcontainer {
+  background-color: purple;
+  width:100%;
+  min-height: 50vh;
+}
