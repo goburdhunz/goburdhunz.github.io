@@ -8,14 +8,33 @@ body {
 }
 
 .homecontainer {
-  background-color: black;
   color:white;
-  min-height: 100vh;
+  min-height: 30vh;
+  text-align: left;
+  position:relative;
+  text-shadow: 0 2px 3px #000;
+}
+
+.video {
+  background-size: cover;
+  width: 100%;
+  top: 5px;
+  bottom: 0;
+  position: absolute;
+}
+
+.burgercontainer {
+  position: relative;
 }
 
 .aboutcontainer {
-  background-color: white;
   min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.content {
+  padding: 35px;
 }
 
 .projectcontainer {
@@ -26,7 +45,7 @@ body {
   color: white;
 }
 
-.emptyspacecontainer {
+.skillcontainer {
   min-height: 100vh;
   background-color: black;
   color:white;
@@ -34,6 +53,7 @@ body {
 
 .experiencecontainer {
   background-image:url("https://i.imgur.com/1zcr8fy.jpg");
+  width: 100%;
   background-size: cover;
   opacity: 0.7;
   min-height: 100vh;
@@ -68,30 +88,40 @@ a {
 
 .homecontainer h1 {
   margin: 0;
-  padding-top: 100px;
-  padding-left: 50px;
+  font-size: 15px;
+  position:relative;
 }
 .homecontainer h3 {
   margin: 0;
-  padding-left: 50px;
+  font-size: 10px;
+  position: relative;
 }
 
 .aboutcontainer h1 {
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid black;
+  font-size: 35px;
+  margin:0;
 }
 
-.aboutcontainer {
-  background-color: black;
-  color: white;
+.aboutcontainer p {
+  font-size: 18px;
+  margin:0;
 }
 
 .projectcontainer h1 {
   margin: 0;
   color: white;
   text-shadow: 0 2px 3px #000;
+  font-size: 35px;
 }
 
 .experiencecontainer h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+.skillcontainer h1 {
   margin: 0;
   color: white;
   text-shadow: 0 2px 3px #000;
