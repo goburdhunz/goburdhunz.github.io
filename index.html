@@ -7,11 +7,15 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700|Playfair+Display:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/599613afb4.js" crossorigin="anonymous"></script>
     <link rel='icon' href='https://i.imgur.com/jIqctP7.png' type='image/x-icon'/ >
   </head>
   <body>
 
     <section>
+      <div class="burgercontainer">
+        <a href="#"><i class="fas fa-bars"></i></a>
+      </div>
       <nav class="nav">
         <a href="#">about | </a>
         <a href="#">projects</a>
@@ -29,6 +33,11 @@
     <section>
       <div class="aboutcontainer">
         <h1>about me</h1>
+        <p>Hi, My name is Zeeshan and I am a Junior Full Stack Software Engineer. <br/>
+        <br/>
+        Previously, I worked as a QA engineer at a tech company called Xing in Germany prior to starting the software engineering immersive course at General Assembly. I was part of a cross-functional development team working on Android, IOS, Web projects. I helped to build products, ensure a certain level of quality and make sure that the updated codebase was ready for release. Working as a QA made me want to learn how to develop software myself and not just to test and review the end product.<br/>
+        <br/>
+        I wanted to have a much more technical knowledge of software development and to be technically proficient enough to build out software projects myself. After learning how to wireframe, design and build a full-stack app with Javascript/Python, I am eager to take the step up to building solutions.</p>
       </div>
     </section>
 
@@ -59,6 +68,16 @@
         <p>©zeeshangoburdhun</p>
       </div>
     </footer>
+    <script>
+    	let menu = document.querySelector('.fas'),
+    	    nav = document.querySelector('.nav')
 
+      function shownav() {
+        nav.classList.toggle('withnav')
+      }
+
+    	menu.addEventListener('click', shownav)
+
+    </script>
   </body>
 </html>

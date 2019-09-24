@@ -45,9 +45,15 @@ body {
 }
 
 .nav {
+  text-align:justify;
+  background-color: black;
+  display: none;
+}
+
+.withnav {
+  display: block;
   text-align: center;
   background-color: black;
-
 }
 
 a {
@@ -70,6 +76,15 @@ a {
   padding-left: 50px;
 }
 
+.aboutcontainer h1 {
+  border-bottom: 2px solid black;
+}
+
+.aboutcontainer {
+  background-color: black;
+  color: white;
+}
+
 .projectcontainer h1 {
   margin: 0;
   color: white;
@@ -84,4 +99,13 @@ a {
 
 .contactcontainer h1 {
     color: white;
+}
+
+.fa-bars {
+  color: white;
+  padding: 10px;
+}
+
+.burgercontainer {
+  background-color: black;
 }
