@@ -4,29 +4,49 @@
 
 body {
   margin: 0;
+  font-family: 'Merriweather', serif;
 }
 
 .homecontainer {
-  background-color: blue;
+  background-color: black;
+  color:white;
   width:100%;
   min-height: 100vh;
+  display: flex;
 }
 .aboutcontainer {
-  background-color: red;
+  background-color: white;
   width:100%;
   min-height: 100vh;
 }
 
 .projectcontainer {
-  background-color: yellow;
+  background-image:url("https://i.imgur.com/8XUGwpc.jpg");
+  background-size: cover;
+  opacity: 0.7;
+  width:100%;
+  min-height: 100vh;
+}
+
+.emptyspacecontainer {
+  width:100%;
+  min-height: 100vh;
+  background-color: black;
+  color:white;
+}
+
+.experiencecontainer {
+  background-image:url("https://i.imgur.com/1zcr8fy.jpg");
+  background-size: cover;
+  opacity: 0.7;
   width:100%;
   min-height: 100vh;
 }
 
 .contactcontainer {
-  background-color: purple;
+  background-color: white;
   width:100%;
-  min-height: 50vh;
+  min-height: 40vh;
 }
 
 .nav {
@@ -36,4 +56,8 @@ body {
 .logo {
   width:50px;
   height: 50px;
+}
+
+h1, h2 {
+  margin: 0;
 }
