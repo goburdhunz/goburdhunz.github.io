@@ -86,6 +86,20 @@ div.content.experience {
   padding: 25px;
 }
 
+i.fab:hover {
+  transform: scale(1.8);
+  transition: 1s;
+}
+
+i.fas:hover {
+  transform: scale(1.8);
+  transition: 1s;
+}
+i.far:hover {
+  transform: scale(1.8);
+  transition: 1s;
+}
+
 .fa-envelope {
   margin-left: 5px;
 }
@@ -125,6 +139,7 @@ a {
   margin-left: 30px;
   position:relative;
 }
+
 .homecontainer h3 {
   margin: 0;
   font-size: 15px;
@@ -203,7 +218,6 @@ h1.contact {
 .carousel-wrapper{
   height:60vh;
   position:relative;
-  width:100%;
   top:50px;
   margin:0 auto;
 }
@@ -218,22 +232,23 @@ h1.contact {
   opacity:0;
   transition: all 0.5s ease-in-out;
 }
-.arrow{
+.arrow {
   border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 12px;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 12px;
+  opacity: 0.3;
 }
 
 .arrow-prev{
-  left:-30px;
+  left:-20px;
   position:absolute;
   top:50%;
   transform:translateY(-50%) rotate(135deg);
 }
 
 .arrow-next{
-    right:-30px;
+  right:-20px;
   position:absolute;
   top:50%;
   transform:translateY(-50%) rotate(-45deg);
