@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
 }
 
 .homecontainer {
@@ -38,6 +38,19 @@ body {
   padding: 35px;
 }
 
+p.intro {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+div.experience {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  opacity: 0.4;
+}
+
 .projectcontainer {
   /* background-image:url("https://i.imgur.com/8XUGwpc.jpg"); */
   /* background-size: cover;
@@ -55,8 +68,16 @@ body {
   background-image:url("https://i.imgur.com/1zcr8fy.jpg");
   width: 100%;
   background-size: cover;
-  opacity: 0.7;
+  background-position:center;
   min-height: 100vh;
+}
+
+.experience h3 {
+  margin: 0;
+}
+
+.experience.secondexperience {
+  font-weight: 700;
 }
 
 .contactcontainer {
@@ -122,8 +143,12 @@ a {
 
 .experiencecontainer h1 {
   margin: 0;
-  color: white;
-  text-shadow: 0 2px 3px #000;
+  margin-bottom: 20px;
+  color: black;
+  border-bottom: 4px solid black;
+  font-size: 35px;
+  font-weight: 700;
+  /* text-shadow: 0 2px 3px #000; */
 }
 
 .skillcontainer h1 {
@@ -146,6 +171,8 @@ a {
 .burgercontainer {
   background-color: black;
 }
+
+
 
 /* --------------------------------------------------------- */
 
