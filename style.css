@@ -18,13 +18,14 @@ body {
 .video {
   background-size: cover;
   width: 100%;
-  top: 5px;
   bottom: 0;
   position: absolute;
+  z-index: 0;
 }
 
 .burgercontainer {
   position: relative;
+  z-index: 1;
 }
 
 .aboutcontainer {
@@ -120,7 +121,11 @@ i.far:hover {
   display: block;
   text-align: center;
   background-color: black;
+  position: relative;
+  z-index: 1;
+  opacity: 0.3;
 }
+
 
 a {
   color: white;
@@ -135,16 +140,16 @@ a {
 .homecontainer h1 {
   margin: 0;
   font-size: 25px;
-  padding-top: 30px;
-  margin-left: 30px;
+  padding-top: 25px;
+  margin-left: 25px;
   position:relative;
 }
 
 .homecontainer h3 {
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .aboutcontainer h1 {
@@ -207,9 +212,6 @@ h1.contact {
   padding: 10px;
 }
 
-.burgercontainer {
-  background-color: black;
-}
 
 
 
@@ -274,6 +276,54 @@ div.skilllist {
   height: 90px;
   padding: 15px;
 }
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    position:relative;
+    display: block;
+    text-align: center;
+    background-color: black;
+    opacity: 0.3;
+    font-size: 30px;
+    margin-bottom: 30px;
+    z-index: 1;
+  }
+
+  .burgercontainer {
+    z-index: 1;
+  }
+
+  .video {
+    z-index: 0;
+  }
+
+  .nav a:hover {
+    font-weight: 700;
+  }
+
+  .burgercontainer {
+    display: none;
+  }
+
+  .homecontainer h1 {
+    font-size: 70px;
+    padding-top: 67px;
+    padding-left: 42px;
+  }
+
+  .homecontainer h3 {
+    font-size: 60px;
+    padding-left: 42px;
+  }
+
+  .homecontainer {
+    height:100vh;
+    background-position: center;
+  }
+
+}
+
+
 
 @media (max-width: 480px) {
       .arrow, .light .arrow {
