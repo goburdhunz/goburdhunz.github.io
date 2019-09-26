@@ -12,7 +12,7 @@ body {
   min-height: 30vh;
   text-align: left;
   position:relative;
-  text-shadow: 0 2px 3px #000;
+  /* text-shadow: 0 2px 3px #000; */
 }
 
 .video {
@@ -57,11 +57,9 @@ div.experience {
 }
 
 .projectcontainer {
-  /* background-image:url("https://i.imgur.com/8XUGwpc.jpg"); */
-  /* background-size: cover;
-  opacity: 0.7; */
+  background-image:url('./images/px_by_Gre3g_@2X.png');
   color: white;
-  border-bottom: 4px solid black;
+  border-bottom: 1px solid black;
 }
 
 .skillcontainer {
@@ -116,7 +114,7 @@ i.far:hover {
 
 .nav {
   text-align:justify;
-  background-color: black;
+  background-color: white;
   display: none;
   font-size: 13px;
 }
@@ -143,21 +141,32 @@ a {
 
 .homecontainer h1 {
   margin: 0;
-  font-size: 25px;
-  padding-top: 25px;
-  margin-left: 25px;
+  font-size: 20px;
   position:relative;
+  opacity: 0.8;
+  display: inline;
 }
 
 .homecontainer h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 10px;
   position: relative;
-  margin-left: 25px;
+  opacity: 0.8;
+  display: inline;
+}
+
+.headers {
+text-align: center;
+padding-top: 100px;
+opacity: 0.7;
+}
+
+span {
+  color: black;
 }
 
 .aboutcontainer h1 {
-  font-size: 35px;
+  font-size: 45px;
   margin:0;
   margin-bottom: 20px;
 }
@@ -169,10 +178,8 @@ a {
 
 .projectcontainer h1 {
   margin: 0;
-  color: black;
-  border-bottom: 4px solid black;
-  /* text-shadow: 0 2px 3px #000; */
-  font-size: 35px;
+  color: white;
+  font-size: 45px;
 }
 
 .experiencecontainer h1 {
@@ -267,6 +274,8 @@ div.summary {
 margin-top: 20px;
 padding: 20px;
 background-color: black;
+opacity: 0.4;
+border-radius: 15px;
 }
 
 div.skilllist {
@@ -309,15 +318,25 @@ div.skilllist {
   }
 
   .homecontainer h1 {
-    font-size: 70px;
-    padding-top: 67px;
-    padding-left: 42px;
+    font-size: 80px;
+    display:inline;
+
   }
 
   .homecontainer h3 {
-    font-size: 60px;
-    padding-left: 42px;
+    font-size: 20px;
+    display: inline;
+    margin: 0;
   }
+
+  .headers {
+    text-align: center;
+    padding-top: 340px;
+    opacity: 0.5;
+    font-family: 'Playfair Display', serif;
+  }
+
+
 
   .homecontainer {
     height:100vh;
@@ -327,6 +346,7 @@ div.skilllist {
   .contentcontainer{
     display: flex;
   }
+
 
   .aboutcontainer h1 {
     font-size: 60px;
@@ -347,10 +367,29 @@ div.skilllist {
     margin-bottom: 20px;
   }
 
-    .contentcontainer {
-      margin-top: 50px;
-    }
+  .contentcontainer {
+    margin-top: 50px;
+  }
 
+  .projectcontainer h1 {
+    font-size: 60px;
+  }
+
+  .carousel-wrapper {
+    width: 55vw;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  .summarycontainer {
+    display: flex;
+  }
+
+div.summary  {
+  width: 50%;
+  flex-wrap: wrap;
+  margin: 10px;
+}
 
 }
 

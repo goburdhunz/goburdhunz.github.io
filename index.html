@@ -26,11 +26,14 @@
           <a href="#">contact</a>
         </nav>
           <video class="video" autoPlay muted loop>
-            <source src= "https://i.imgur.com/CzVddJz.mp4"
+            <source src= "https://i.imgur.com/ynZHgEv.mp4"
               type="video/mp4"/>
           </video>
-        <h1>Zeeshan Goburdhun</h1>
-        <h3>Full Stack Software Engineer</h3>
+        <div class="headers">
+          <h1>zeeshan goburdhun<span>.</span></h1>
+          <h3>full stack software engineer<span>.
+          </span> </h3>
+      </div>
       </div>
     </section>
 
@@ -41,13 +44,13 @@
           <h1>about me</h1>
           <div class="contentcontainer">
             <div class="intro">
-              <p class="introcontent">I worked as a QA engineer at a tech company called Xing in Germany prior to starting the software engineering immersive course at General Assembly. I was part of a cross-functional development team working on Android, IOS, Web projects. <br>
+              <p class="introcontent">I worked as a QA engineer at a tech company called Xing in Germany prior to starting the software engineering immersive course at General Assembly. I was part of a cross-functional development team working on Android, iOS, Web projects. <br>
               <br>
               I helped to build products, ensure a certain level of quality and make sure that the updated codebase was ready for release. Working as a QA made me want to learn how to develop software myself and not just to test and review the end product.<br/>
               <br/>
               I wanted to have a much more technical knowledge of software development and to be technically proficient enough to build out software projects myself. <br/>
               <br/>
-              After learning how to wireframe, design and build a full-stack app with Javascript/Python, I am eager to take the step up to building solutions.
+              After learning how to wireframe, design and build a full-stack app with JavaScript/Python, I am eager to take the step up to building solutions.
               </p>
             </div>
             <div class="interest">
@@ -56,7 +59,7 @@
               <br>
                I love travelling. I was lucky enough to work remote so i was able to travel and work from abroad. I think that travel makes a person grow and develop like nothing else. I try to visit somewhere new every couple of months.<br/>
               <br/>
-              I live to eat! I enjoy cooking but mostly eating! Trying out new restaurants wherever I am in the world - you can a lot about a contrie's culture by what and how they eat.
+              I live to eat! I enjoy cooking but mostly eating! Trying out new restaurants wherever I am in the world - you can a lot about a country's culture by what and how they eat.
               </p>
             </div>
           </div>
@@ -67,6 +70,7 @@
     <section>
       <div class="projectcontainer">
         <div class="content">
+          <img class="logo" src="https://i.imgur.com/jIqctP7.png"/>
           <h1>projects</h1>
             <div class="carousel-wrapper">
               <span id="item-1"></span>
@@ -93,39 +97,46 @@
               <a class="arrow arrow-next" href="#item-1"></a>
             </div>
           </div>
-          <div class="summary">
-            <h4>Project 1: Build a vanilla JavaScript game - Solo project</h4>
-            <a href="https://goburdhunz.github.io/frogger-project-01/"><i class="fas fa-link"></i></a>
-            <a href="https://github.com/goburdhunz/frogger-project-01"><i class="fab fa-github"></i></a>
-            <p>We had a brief to make use of vanilla JavaScript and Dom manipulation to build a game. I chose to build Frogger - a classic arcade game from the 80s.
-            </p>
-          </div>
-          <div class="summary">
-            <h4>Project 2: 48-hour Hackathon - Front-end app using public API(s) - Pair Project</h4>
-            <a href="https://goburdhunz.github.io/Project-2-React-frontend-App/#/"><i class="fas fa-link"></i></a>
-            <a href="https://github.com/goburdhunz/Project-2-React-frontend-App"><i class="fab fa-github"></i></a>
-            <p>After using React for the second module, we were tasked with building a React front-end which consumed a public API. This was a pair project, only using one laptop. We chose to consume the public API from Listen Notes, a podcast library website.
-            </p>
-          </div>
-          <div class="summary">
-            <h4>Project 3: MERN-Stack web application - React/Node/Express - Group project</h4>
-            <a href="https://burgerrator.herokuapp.com/#/"><i class="fas fa-link"></i></a>
-            <a href="https://github.com/goburdhunz/project-03"><i class="fab fa-github"></i></a>
-            <p>We used Node.js/Express/MongoDB in the third module and we were briefed with building a MERN-stack web app with authentication, database models, CRUD routes and register/login. We worked in groups of 4 and had to set up a repo on Github and fork individually. <br>
-            <br>
-            I chose to work on the Express back-end, setting up the back-end of the app; controllers, routing, mongoose models and basic token authentication. I also implemented a modal display and comments on the front-end.
-            </p>
-          </div>
-          <div class="summary">
-            <h4>Project 4: Full stack web application with front-end in React/Back-end in Python/Django - Solo project</h4>
-            <a href="https://profess.herokuapp.com/#/"><i class="fas fa-link"></i></a>
-            <a href="https://github.com/goburdhunz/project-04"><i class="fab fa-github"></i></a>
-            <p>After a one week introduction to Python and Django, we were tasked with building a web app with a React front-end and Django back-end. The database models were required to have 1:M or M:M relationships to other models, and we had to creatively display the resulting data on the frontend.<br>
-            <br>
-            I built an app which was user focused and combined a blogging functionality with tailored news, job and events services. I used three external REST APIs for the tailored content and created Django models for the main user and the blog in the back-end. Users could register, login, create a blog, view all blogs, and when logged in - view personalised content based on their profile preferences.<br>
-            <br>
-            We only had one week for this project but it was a great learning experience, especially for the Django backend, SQLite and database migrations.
-            </p>
+          <div class="summarycontainer">
+            <div class="summary">
+              <h4>Project 1: Build a vanilla JavaScript game with CSS grids - Solo project</h4>
+              <a href="https://goburdhunz.github.io/frogger-project-01/"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/goburdhunz/frogger-project-01"><i class="fab fa-github"></i></a>
+              <p>We had a brief to make use of vanilla JavaScript and Dom manipulation to build a game. I chose to build Frogger - a classic arcade game from the 80s.<br>
+              <br>
+              We had 5 days to build and we could not use HTML canvas but instead had to create a CSS grid to house the game. It was very interesting to use DOM manipulation to create a game and to mimic movement with players element and obstacle elements.
+
+              </p>
+            </div>
+            <div class="summary">
+              <h4>Project 2: 48-hour Hackathon - Front-end app using public API(s) - Pair Project</h4>
+              <a href="https://goburdhunz.github.io/Project-2-React-frontend-App/#/"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/goburdhunz/Project-2-React-frontend-App"><i class="fab fa-github"></i></a>
+              <p>After using React for the second module, we were tasked with building a React front-end which consumed a public API. This was a pair project, with only one laptop between us. We chose to consume the public API from Listen Notes, a podcast library website. <br>
+              <br>
+              We built  a homepage which had a search function which made an API call with the search query and displayed the results within a card component. We also built a details page for individual podcasts, a random podcast selector which again utilised a specific endpoint from Listen Notes.
+              </p>
+            </div>
+            <div class="summary">
+              <h4>Project 3: MERN-Stack web app - React/Node/Express - Group project</h4>
+              <a href="https://burgerrator.herokuapp.com/#/"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/goburdhunz/project-03"><i class="fab fa-github"></i></a>
+              <p>We used React, Node.js/Express and MongoDB in the third module and we were briefed with building a MERN-stack web app with authentication, database models, CRUD routes and register/login. We worked in groups of 4 and had to set up a repo on Github and fork individually. <br>
+              <br>
+              I chose to work on the Express back-end, setting up the back-end of the app; controllers, routing, mongoose models and basic token authentication. I also implemented a modal display on the front-end using a specific NPM package component and implemented comments on the details page of the app.
+              </p>
+            </div>
+            <div class="summary">
+              <h4>Project 4: Full stack web app with front-end in React/Back-end in Python/Django - Solo project</h4>
+              <a href="https://profess.herokuapp.com/#/"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/goburdhunz/project-04"><i class="fab fa-github"></i></a>
+              <p>After a one week introduction to Python and Django, we were tasked with building a web app with a React front-end and Django back-end.<br>
+              <br>
+              I built an app which was user focused and combined a blogging functionality with tailored news, job and events services. Users could register, login, create a blog, view all blogs, and when logged in - view personalised content based on their profile preferences.<br>
+              <br>
+              We only had one week for this project but it was a great learning experience, especially for the Django backend, SQLite and database migrations.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -181,7 +192,7 @@
       <div class="contactcontainer">
         <a href="#"><img class="logo" src="https://i.imgur.com/jIqctP7.png"/></a>
         <h1 class="contact">contact</h1>
-        <a href="goburdhunz@gmail.com"><i class="far fa-envelope"></i></a>
+        <a href="mailto:goburdhunz@gmail.com"><i class="far fa-envelope"></i></a>
         <a href="https://github.com/goburdhunz"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/zeeshan-goburdhun/"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.xing.com/profile/Zeeshan_Goburdhun/cv"><i class="fab fa-xing"></i></a>
