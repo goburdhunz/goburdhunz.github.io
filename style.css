@@ -135,6 +135,7 @@ i.far:hover {
 a {
   color: white;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .logo {
