@@ -312,7 +312,7 @@ div.skilllist {
 }
 
 .nav a:hover {
-  font-weight: 700;
+  border-top: 4px solid white;
 }
 
 .burgercontainer {
