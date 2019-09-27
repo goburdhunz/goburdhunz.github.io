@@ -34,6 +34,9 @@
           <h1>zeeshan goburdhun<span>.</span></h1>
           <h3>full stack software engineer<span>.
           </span> </h3>
+          <section id="section07" class="demo">
+            <a href="#about"><span></span><span></span><span></span></a>
+          </section>
       </div>
       </div>
     </section>
@@ -220,6 +223,13 @@
 
     	menu.addEventListener('click', shownav)
 
+      (function() {
+        ('a[href=about]').on('click', function(e) {
+          e.preventDefault()
+          ('html, body').animate({ scrollTop:
+      ((this).attr('href')).offset().top}, 500, 'linear')
+        })
+      })
     </script>
   </body>
 </html>
