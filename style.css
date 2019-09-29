@@ -311,6 +311,10 @@ div.skilllist {
   z-index: 1;
 }
 
+.nav a {
+  padding-right: 10px;
+}
+
 .burgercontainer {
   z-index: 1;
 }
