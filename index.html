@@ -1,235 +1,323 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Zeeshan Goburdhun</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700|Playfair+Display:400,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/599613afb4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel='icon' href='https://i.imgur.com/kamM8cO.png' type='image/x-icon'/ >
-  </head>
-  <body>
 
-    <section>
-      <div class="homecontainer">
+<head>
+  <meta charset="utf-8">
+  <title>Zeeshan Goburdhun</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700|Playfair+Display:400,700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/599613afb4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel='icon' href='https://i.imgur.com/kamM8cO.png' type='image/x-icon' />
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+
+  <section>
+    <div class="homecontainer">
+      <nav class="nav">
         <div class="burgercontainer">
           <a href="#"><i class="fas fa-bars"></i></a>
         </div>
-        <nav class="nav">
+        <div class="navLinkscontainer">
           <a href="#about">about</a>
-          <a href="#projects">projects</a>
           <a href="#skills">skills</a>
-          <img class="logo" src="https://i.imgur.com/kamM8cO.png"/>
+          <lottie-player id="navAnimation" src="https://assets1.lottiefiles.com/packages/lf20_8d8kb6yv.json" speed="1"
+            loop autoplay></lottie-player>
           <a href="#experience">experience</a>
+          <a href="#interests">interests</a>
           <a href="#contact">contact</a>
-        </nav>
-          <video class="video" autoPlay muted loop>
-            <source src= "https://i.imgur.com/ynZHgEv.mp4"
-              type="video/mp4"/>
-          </video>
-        <div class="headers">
-          <h1>zeeshan goburdhun<span>.</span></h1>
-          <h3>full stack software engineer<span>.
-          </span> </h3>
-          <section id="section07" class="demo">
-            <a href="#about"><span></span><span></span><span></span></a>
-          </section>
-      </div>
-      </div>
-    </section>
-
-    <section>
-      <div id="about" class="aboutcontainer">
-        <div class="content">
-          <img class="logo" src="https://i.imgur.com/kamM8cO.png"/>
-          <h1>about me</h1>
-          <div class="contentcontainer">
-            <div class="intro">
-              <p class="introcontent">I worked as a QA engineer at a tech company called Xing in Germany prior to starting the software engineering immersive course at General Assembly. I was part of a cross-functional development team working on Android, iOS, Web projects. <br>
-              <br>
-              I helped to build products, ensure a certain level of quality and make sure that the updated codebase was ready for release. Working as a QA made me want to learn how to develop software myself and not just to test and review the end product.<br/>
-              <br/>
-              I wanted to have a much more technical knowledge of software development and to be technically proficient enough to build out software projects myself. <br/>
-              <br/>
-              After learning how to wireframe, design and build a full-stack app with JavaScript/Python, I am eager to take the step up to building solutions.
-              </p>
-            </div>
-            <div class="interest">
-              <p class="interestcontent">I enjoy learning about developments in the world of cryptocurrency, especially news regarding new blockchain use cases and investment in new tokens/coins.
-              <br>
-              <br>
-               I love travelling. I was lucky enough to work remote so i was able to travel and work from abroad. I think that travel makes a person grow and develop like nothing else. I try to visit somewhere new every couple of months.<br/>
-              <br/>
-              I live to eat! I enjoy cooking but mostly eating! Trying out new restaurants wherever I am in the world - you can a lot about a country's culture by what and how they eat.
-              </p>
-            </div>
-          </div>
         </div>
+      </nav>
+      <video class="video" autoPlay muted loop>
+        <source src="https://i.imgur.com/ynZHgEv.mp4" type="video/mp4" />
+      </video>
+      <div class="mainHeaders">
+        <h1>zeeshan goburdhun<span>.</span></h1>
+        <h3>front end software engineer<span>.
+          </span> </h3>
+        <section id="section07" class="demo">
+          <a href="#about"><span></span><span></span><span></span></a>
+        </section>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section>
-      <div id="projects" class="projectcontainer">
-        <div class="content">
-          <img class="logo" src="https://i.imgur.com/kamM8cO.png"/>
-          <h1>projects</h1>
+  <section>
+    <div id="about" class="wrapper aboutcontainer">
+      <div class="header">
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_mf5j5kua.json" background="transparent"
+          speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+        <h1 class="contentTitle">about me</h1>
+      </div>
+      <div class="aboutcontainerContent">
+        <div class="intro">
+          <p class="introcontent">I work with React JS/Next JS, typescript, CSS/SASS on a daily basis. I work on new
+            features/stories, code maintenance, bug fixes, analytics, suggest + work on improvements and actively take
+            part in all the scrum ceremonies such as sprint planning, refinement (including 3 amigos sessions) and
+            retrospective as well as product demos and reviews.
+            <span class="workedOn"> Some of the things I worked on for Calvin Klein/Tommy Hilfiger EU web applications
+              <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Sz5T65.json" background="transparent"
+                speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+            </span>
+          </p>
+        </div>
+
+        <div id="workDone" class="workDonecontainer">
+          <div class="content">
             <div class="carousel-wrapper">
               <span id="item-1"></span>
               <span id="item-2"></span>
               <span id="item-3"></span>
               <span id="item-4"></span>
+              <span id="item-5"></span>
+              <span id="item-6"></span>
               <div class="carousel-item item-1">
-                <a class="arrow arrow-prev" href="#item-4"></a>
-                <a class="arrow arrow-next" href="#item-2"></a>
+                <span class="itemDescription">CK - Popular Searches</span>
+                <div class="arrowContainerLeft">
+                  <a class="arrow arrow-prev" href="#item-4"></a>
+                </div>
+                <div class="arrowContainerRight">
+                  <a class="arrow arrow-next" href="#item-2"></a>
+                </div>
+
               </div>
 
-            <div class="carousel-item item-2">
-              <a class="arrow arrow-prev" href="#item-1"></a>
-              <a class="arrow arrow-next" href="#item-3"></a>
-            </div>
+              <div class="carousel-item item-2">
+                <span class="itemDescription">CK - Recent Searches</span>
+                <div class="arrowContainerLeft">
+                  <a class="arrow arrow-prev" href="#item-1"></a>
+                </div>
 
-            <div class="carousel-item item-3">
-              <a class="arrow arrow-prev" href="#item-2"></a>
-              <a class="arrow arrow-next" href="#item-4"></a>
-            </div>
+                <div class="arrowContainerRight">
+                  <a class="arrow arrow-next" href="#item-3"></a>
+                </div>
+              </div>
 
-            <div class="carousel-item item-4">
-              <a class="arrow arrow-prev" href="#item-3"></a>
-              <a class="arrow arrow-next" href="#item-1"></a>
-            </div>
-          </div>
-          <div class="summarycontainer">
-            <div class="summary">
-              <h4>Project 1: Build a vanilla JavaScript game with CSS grids - Solo project</h4>
-              <a href="https://goburdhunz.github.io/frogger-project-01/"><i class="fas fa-link"></i></a>
-              <a href="https://github.com/goburdhunz/frogger-project-01"><i class="fab fa-github"></i></a>
-              <p>We had a brief to make use of vanilla JavaScript and Dom manipulation to build a game. I chose to build Frogger - a classic arcade game from the 80s.<br>
-              <br>
-              We had 5 days to build and we could not use HTML canvas but instead had to create a CSS grid to house the game. It was very interesting to use DOM manipulation to create a game and to mimic movement with players element and obstacle elements.
+              <div class="carousel-item item-3">
+                <span class="itemDescription_black">CK - Global Recommendations Module</span>
+                <div class="arrowContainerLeft">
+                  <a class="arrow arrow-prev" href="#item-2"></a>
+                </div>
 
-              </p>
-            </div>
-            <div class="summary">
-              <h4>Project 2: 48-hour Hackathon - Front-end app using public API(s) - Pair Project</h4>
-              <a href="https://goburdhunz.github.io/Project-2-React-frontend-App/#/"><i class="fas fa-link"></i></a>
-              <a href="https://github.com/goburdhunz/Project-2-React-frontend-App"><i class="fab fa-github"></i></a>
-              <p>After using React for the second module, we were tasked with building a React front-end which consumed a public API. This was a pair project, with only one laptop between us. We chose to consume the public API from Listen Notes, a podcast library website. <br>
-              <br>
-              We built  a homepage which had a search function which made an API call with the search query and displayed the results within a card component. We also built a details page for individual podcasts, a random podcast selector which again utilised a specific endpoint from Listen Notes.
-              </p>
-            </div>
-            <div class="summary">
-              <h4>Project 3: MERN-Stack web app - React/Node/Express - Group project</h4>
-              <a href="https://burgerrator.herokuapp.com/#/"><i class="fas fa-link"></i></a>
-              <a href="https://github.com/goburdhunz/project-03"><i class="fab fa-github"></i></a>
-              <p>We used React, Node.js/Express and MongoDB in the third module and we were briefed with building a MERN-stack web app with authentication, database models, CRUD routes and register/login. We worked in groups of 4 and had to set up a repo on Github and fork individually. <br>
-              <br>
-              I chose to work on the Express back-end, setting up the back-end of the app; controllers, routing, mongoose models and basic token authentication. I also implemented a modal display on the front-end using a specific NPM package component and implemented comments on the details page of the app.
-              </p>
-            </div>
-            <div class="summary">
-              <h4>Project 4: Full stack web app with front-end in React/Back-end in Python/Django - Solo project</h4>
-              <a href="https://profess.herokuapp.com/#/"><i class="fas fa-link"></i></a>
-              <a href="https://github.com/goburdhunz/project-04"><i class="fab fa-github"></i></a>
-              <p>After a one week introduction to Python and Django, we were tasked with building a web app with a React front-end and Django back-end.<br>
-              <br>
-              I built an app which was user focused and combined a blogging functionality with tailored news, job and events services. Users could register, login, create a blog, view all blogs, and when logged in - view personalised content based on their profile preferences.<br>
-              <br>
-              We only had one week for this project but it was a great learning experience, especially for the Django backend, SQLite and database migrations.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+                <div class="arrowContainerRight">
+                  <a class="arrow arrow-next" href="#item-4"></a>
+                </div>
+              </div>
 
-    <section>
-      <div id="skills" class="skillcontainer">
-        <div class="content">
-          <img class="logo" src="https://i.imgur.com/tzUQMUc.png"/>
-          <h1>skills</h1>
-          <div class="skilllist">
-            <img src="./images/atom-original-wordmark.svg" alt="">
-            <img src="./images/babel-plain.svg" alt="">
-            <img src="./images/css3-original-wordmark.svg" alt="">
-            <img src="./images/django-line.svg" alt="">
-            <img src="./images/cucumber-plain-wordmark.svg" alt="">
-            <img src="./images/express-original-wordmark.svg" alt="">
-            <img src="./images/git-original-wordmark.svg" alt="">
-            <img src="./images/github-original-wordmark.svg" alt="">
-            <img src="./images/heroku-original-wordmark.svg" alt="">
-            <img src="./images/html5-original-wordmark.svg" alt="">
-            <img src="./images/javascript-original.svg" alt="">
-            <img src="./images/mocha-plain.svg" alt="">
-            <img src="./images/mongodb-original-wordmark.svg" alt="">
-            <img src="./images/mysql-original-wordmark.svg" alt="">
-            <img src="./images/nodejs-original-wordmark.svg" alt="">
-            <img src="./images/npm-original-wordmark.svg" alt="">
-            <img src="./images/python-original-wordmark.svg" alt="">
-            <img src="./images/react-original-wordmark.svg" alt="">
-            <img src="./images/sass-original.svg" alt="">
-            <img src="./images/webpack-plain-wordmark.svg" alt="">
-            <img src="./images/yarn-original-wordmark.svg" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
+              <div class="carousel-item item-4">
+                <span class="itemDescription_black">CK - Product Tile Carousel</span>
 
-    <section>
-      <div id="experience" class="experiencecontainer">
-        <div class="content">
-          <img class="logo" src="https://i.imgur.com/kamM8cO.png"/>
-          <h1>experience</h1>
-          <div class="experiencecontent">
-            <div class="firstexperience">
-              <img class="xinglogo" src="./images/general-assembly_logo.png" alt="">
-              <h3>General Assembly - Software Engineering Immersive</h3>
-              <small>July 2019 - September 2019, London </small>
-              <p>Intense, yet rewarding 12-week full-stack software engineering bootcamp aimed at providing all the necessary technical skills to find a job as a junior Software Engineer. The daily lessons were focused on topics such as JavaScript, React and Node.js/Express. We had challenges during the day to practice and reinforce the lesson as well as daily homework and projects to really solidify the topics covered.</p>
-            </div>
-            <div class="secondexperience">
-              <img class="xinglogo" src="./images/iconfinder_xing-hex_278388.svg" alt="">
-              <h3>Freelance QA Engineer, Xing SE</h3>
-              <small>October 2017 - May 2019, Hamburg & Remote</small>
-              <p>Worked as a freelance QA Engineer across Android, IOS and Web apps. It was incredible exposure to software engineering and something that really helped me to gain a foothold in the industry. I worked alongside different types of engineers; front-end, back-end, devops, data. This is where I made the decision to upskill and try to move to the next step and engineer solutions myself.</p>
+                <div class="arrowContainerLeft">
+                  <a class="arrow arrow-prev" href="#item-3"></a>
+                </div>
+
+                <div class="arrowContainerRight">
+                  <a class="arrow arrow-next" href="#item-5"></a>
+                </div>
+
+              </div>
+
+              <div class="carousel-item item-5">
+                <span class="itemDescription">TH - Search</span>
+                <div class="arrowContainerLeft">
+                  <a class="arrow arrow-prev" href="#item-4"></a>
+                </div>
+                <div class="arrowContainerRight">
+                  <a class="arrow arrow-next" href="#item-6"></a>
+                </div>
+              </div>
+
+              <div class="carousel-item item-6">
+                <span class="itemDescription">TH - Search Suggestions</span>
+                <div class="arrowContainerLeft">
+                  <a class="arrow arrow-prev" href="#item-5"></a>
+                </div>
+
+                <div class="arrowContainerRight">
+                  <a class="arrow arrow-next" href="#item-1"></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    </div>
+  </section>
 
-    <footer>
-      <div id="contact" class="contactcontainer">
-        <a href="#"><img class="logo" src="https://i.imgur.com/kamM8cO.png"/></a>
-        <h1 class="contact">contact</h1>
+  <section>
+    <div id="skills" class="wrapper skillcontainer">
+      <div class="header">
+        <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_obidsi0t.json" background="transparent"
+          speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+        <h1 class="contentTitle">skills</h1>
+      </div>
+      <div class="skilllist">
+        <img src="./images/js_logo.svg" alt="">
+        <img src="./images/react-original-wordmark.svg" alt="">
+        <img src="./images/nextjs-2.svg" alt="">
+        <img src="./images/typescript.svg" alt="">
+        <img src="./images/redux.svg" alt="">
+        <img src="./images/babel-plain.svg" alt="">
+        <img src="./images/visual-studio-code-1.svg" alt="">
+        <img src="./images/css3-original-wordmark.svg" alt="">
+        <img src="./images/css-modules-logo.svg" alt="">
+        <img src="./images/figma.svg" alt="">
+        <img src="./images/cucumber-plain-wordmark.svg" alt="">
+        <img src="./images/express-original-wordmark.svg" alt="">
+        <img src="./images/git-original-wordmark.svg" alt="">
+        <img src="./images/github-original-wordmark.svg" alt="">
+        <img src="./images/gitlab-icon.svg" alt="">
+        <img src="./images/jest-svgrepo-com.svg" alt="">
+        <img src="./images/cypress-io.svg" alt="">
+        <img src="./images/storybook.svg" alt="">
+        <img src="./images/html5-original-wordmark.svg" alt="">
+        <img src="./images/mongodb-original-wordmark.svg" alt="">
+        <img src="./images/nodejs-original-wordmark.svg" alt="">
+        <img src="./images/npm-original-wordmark.svg" alt="">
+        <img src="./images/python-original-wordmark.svg" alt="">
+        <img src="./images/django-line.svg" alt="">
+        <img src="./images/sass-original.svg" alt="">
+        <img src="./images/webpack-plain-wordmark.svg" alt="">
+        <img src="./images/yarn-original-wordmark.svg" alt="">
+        <img src="./images/mocha-plain.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="experience" class="wrapper experiencecontainer">
+      <div class="header">
+        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_ltuqrtmn.json" background="transparent"
+          speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+        <h1 class="contentTitle">experience</h1>
+      </div>
+      <div class="experiencecontainerContent">
+        <div class="latestexperience">
+          <img class="wundermanthompsonLogo" src="./images/wtc2.png" alt="">
+          <h3>Frontend Software Engineer - Wunderman Thompson Commerce</h3>
+          <small>Jan 2020 - present, Watford/Remote </small>
+          <p>I currently work as a react frontend engineer on the PVH account at Wunderman Thompson Commerce, which is
+            their biggest e-commerce account. I am working within the Calvin Klein/Tommy Hilfiger experience team,
+            which focuses on browse and search, everything from the homepage to the checkout, Including product list
+            pages, product details pages, internal search functionality and recommendations modules throughout the
+            site.</p>
+        </div>
+        <div class="firstexperience">
+          <img class="generalAssemablyLogo" src="./images/general-assembly_logo.png" alt="">
+          <h3>General Assembly - Software Engineering Immersive</h3>
+          <small>July 2019 - September 2019, London </small>
+          <p>Intense, yet rewarding 12-week full-stack software engineering bootcamp aimed at providing all the
+            necessary technical skills to find a job as a junior Software Engineer. The daily lessons were focused on
+            topics such as JavaScript, React and Node.js/Express.</p>
+        </div>
+        <div class="secondexperience">
+          <img class="xinglogo" src="./images/iconfinder_xing-hex_278388.svg" alt="">
+          <h3>Freelance QA Engineer, Xing SE</h3>
+          <small>October 2017 - May 2019, Hamburg/Remote</small>
+          <p>Worked as a freelance QA Engineer across Android, IOS and Web apps. It was incredible exposure to
+            software engineering and something that really helped me to gain a foothold in the industry. This is where I
+            made the decision to upskill and try to move to the next step and engineer solutions myself.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="interests" class="wrapper interestContainer">
+      <div class="interestContainercontent">
+        <div class="header">
+          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_gnm8jovc.json" background="transparent"
+            speed="1" style="width: 150px; height: 150px;" loop autoplay></lottie-player>
+          <h1 class="contentTitle">interests</h1>
+        </div>
+        <div class="interestContent">
+          <div class="firstInterest">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_2omr5gpu.json" background="transparent"
+              speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+            <h3>Stocks/Cryptocurrency</h3>
+            <p>Learning about developments regarding blockchain and investing in tokens and coins as well as
+              traditional stocks</p>
+          </div>
+          <div class="secondInterest">
+            <lottie-player src="https://assets8.lottiefiles.com/datafiles/AtGF4p7zA8LpP2R/data.json"
+              background="transparent" speed="1" style="width: 100px; height:100px;" loop autoplay></lottie-player>
+            <h3>Traveling</h3>
+            <p>I try to visit new places as often as I can, even if it's just a short weekend trip. Now that remote
+              working is becoming mainstream, i love the opportunity work remotely in another country.</p>
+          </div>
+          <div class="thirdInterest">
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_umwjpnnn.json" background="transparent"
+              speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+            <h3>Sports</h3>
+            <p>Football, Tennis, Badminton, Table Tennis</p>
+          </div>
+          <div class="fourthInterest">
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_jbt4j3ea.json" background="transparent"
+              speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+            <h3>Food</h3>
+            <p>I love cooking and eating out. Trying out new restaurants wherever I am.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div id="contact" class="contactcontainer">
+      <div class="contactContent">
+        <div class="backToTop">
+          <a href="#"><img class="logo" src="https://i.imgur.com/kamM8cO.png" /></a>
+          <span>Back to the top</span>
+        </div>
+        <h1 class="contentTitle">contact</h1>
+        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_uwos7l6e.json" background="transparent"
+          speed="0.5" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
         <a href="mailto:goburdhunz@gmail.com"><i class="far fa-envelope"></i></a>
         <a href="https://github.com/goburdhunz"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/zeeshan-goburdhun/"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.xing.com/profile/Zeeshan_Goburdhun/cv"><i class="fab fa-xing"></i></a>
-        <a href="https://medium.com/@zeeshangoburdhun"><i class="fab fa-medium"></i></a>
-        <small>© zeeshangoburdhun</small>
       </div>
-    </footer>
-    <script>
-    	let menu = document.querySelector('.fas'),
-    	    nav = document.querySelector('.nav')
+      <div class="cvDownloadLink">
+        <div class="cvButton">
+          <h3 class="grabMyCv">Click to Grab My CV</h3>
+          <a href="document/Final CV 2022.pdf" target=”_blank” download="zeeshanCV">
+            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_7iqfdthd.json" background="transparent"
+              speed="1" style="width: 40px; height: 40px;" loop autoplay></lottie-player>
+          </a>
+        </div>
+      </div>
+      <small>©zeeshangoburdhun</small>
+  </footer>
+  <script>
+    let menu = document.querySelector('.fas'),
+      nav = document.querySelector('.navLinkscontainer')
 
-      function shownav() {
-        nav.classList.toggle('withnav')
-      }
+    function shownav() {
+      nav.classList.toggle('withNav')
+    }
 
-    	menu.addEventListener('click', shownav)
+    menu.addEventListener('click', shownav)
 
-      (function() {
-        ('a[href=about]').on('click', function(e) {
+      (function () {
+        ('a[href=about]').on('click', function (e) {
           e.preventDefault()
-          ('html, body').animate({ scrollTop:
-      ((this).attr('href')).offset().top}, 500, 'linear')
+            ('html, body').animate({
+              scrollTop:
+                ((this).attr('href')).offset().top
+            }, 500, 'linear')
         })
       })
-    </script>
-  </body>
+
+    let animation = document.getElementById("exploding-bird");
+
+  </script>
+</body>
+
 </html>
