@@ -363,6 +363,10 @@ div.summary {
   padding: 15px;
 }
 
+.lowExperience {
+  opacity: 0.5;
+}
+
 
 
 .carousel-wrapper {
